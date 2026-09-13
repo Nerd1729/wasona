@@ -1,26 +1,26 @@
 {
-  "lang_name": "English",
+  "lang_name": "Latina",
 
-  "Index": "Index",
-  "Next": "Next",
-  "Previous": "Previous",
-  "Translation": "Translation",
+  "Index": "index",
+  "Next": "sequens",
+  "Previous": "praecedens",
+  "Translation": "conversio",
 
-  "Consonants": "Consonants",
-  "Labial": "Labial",
-  "Coronal": "Coronal",
-  "Dorsal": "Dorsal",
+  "Consonants": "consonantes",
+  "Labial": "labiales",
+  "Coronal": "coronales",
+  "Dorsal": "dorsales",
 
-  "Vowels": "Vowels",
-  "Front": "Front",
-  "Central": "Central",
-  "Back": "Back",
+  "Vowels": "vocales",
+  "Front": "anteriores",
+  "Central": "mediae",
+  "Back": "posteriores",
 
-  "translate": "Translate the sentence",
-  "translate_word": "Which of these means...",
-  "check": "check",
-  "continue": "continue",
-  "incorrect": "❌ Not quite. Correct answer: ",
-  "correct": "✅ Correct! Well done!",
-  "done": "🎉 All exercises completed!"
+  "translate": "sententiam converte",
+  "translate_word": "quid verbum significat...",
+  "check": "inspice",
+  "continue": "perge",
+  "incorrect": "❌ non prorsus. responsum rectum: ",
+  "correct": "✅ recte! bene!",
+  "done": "🎉 exercitationes absolutae!"
 }
