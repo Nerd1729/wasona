@@ -1,43 +1,43 @@
 ---
-slug: "en/03"
-title: "lesson 3: simple sentences"
-description: "Learn li, e, soweli, waso, pipi, kasi, moku, lukin, sona!"
+slug: "la/03"
+title: "lectio III: sententiae simplices"
+description: "li, e, soweli, waso, pipi, kasi, moku, lukin, sona disce!"
 practice:
-- title: "1. Vocab"
+- title: "1. vocabula"
   tasks:
-  - l1: "bird"
+  - l1: "avis"
     l2: "waso"
     junkChips: ["soweli", "pipi", "kasi"]
-  - l1: "land animal"
+  - l1: "bestia"
     l2: "soweli"
     junkChips: ["waso", "pipi", "kasi"]
-  - l1: "bug"
+  - l1: "insectum"
     l2: "pipi"
     junkChips: ["soweli", "waso", "kasi"]
-  - l1: "plant"
+  - l1: "planta"
     l2: "kasi"
     junkChips: ["soweli", "pipi", "waso"]
-  - l1: "to eat"
+  - l1: "edere"
     l2: "moku"
     junkChips: ["kasi", "lukin", "sona"]
-  - l1: "to see"
+  - l1: "videre"
     l2: "lukin"
     junkChips: ["waso", "moku", "sona"]
-  - l1: "to know"
+  - l1: "scire"
     l2: "sona"
     junkChips: ["pipi", "moku", "lukin"]
-- title: "2. Revise"
+- title: "2. recognosce"
   tasks:
-  - l1: "The animal knows the bug."
+  - l1: "bestia scit insecta."
     l2: "soweli li sona e pipi."
     junkChips: ["waso"]
-  - l1: "The bug eats plants."
+  - l1: "insecta plantam edit"
     l2: "pipi li moku e kasi."
     junkChips: ["soweli"]
-  - l1: "The bird sees plants."
+  - l1: "plantas vidit avis."
     l2: "waso li lukin e kasi."
     junkChips: ["moku"]
-  - l1: "The bird knows the animal."
+  - l1: "avis bestiam scit."
     l2: "waso li sona e soweli."
     junkChips: ["pipi"]
 ---
@@ -47,58 +47,40 @@ import List from "@/components/List.astro";
 import Word from "@/components/Word.astro";
 import Practice from "@/components/Practice.astro";
 
-Now that you know how to read Toki Pona, it's time to learn words and sentences! Here are some words for things:
+cum Toki Ponam legere possis, iam verba sententiasque discere potes! ecce, vocubula rerum: 
 
 <List>
-  <Word sl="soweli" m="land animal, like a cat, dog, cow, mouse, elephant" />
-  <Word sl="waso" m="bird, like a pigeon, goose, owl" />
-  <Word sl="pipi" m="insect, like a beetle, ant, butterfly, spider" />
-  <Word sl="kasi" m="plant, like a clover, birch tree, cactus, moss" />
+  <Word sl="soweli" m="bestia, animal terrae, velut feles, canis, vacca, mus, leo" />
+  <Word sl="waso" m="avis, velut columba, anser, strix" />
+  <Word sl="pipi" m="insectum, velut scarabaeus, formica, papilio, aranea" />
+  <Word sl="kasi" m="planta, velut trifolium, betula, cactus, muscus" />
 </List>
 
-And here are some words for actions:
+et vocabula actionum:
 
 <List>
-  <Word sl="moku" m="to consume" />
-  <Word sl="lukin" m="to see" />
-  <Word sl="sona" m="to know" />
+  <Word sl="moku" m="(cibum vel aquam) consumere" />
+  <Word sl="lukin" m="videre" />
+  <Word sl="sona" m="scire" />
 </List>
 
-{/* A note for translators */}
-{/*
-  When translating word definitions, such as "land animal", "insect", "plant",
-  it's better to use everyday words rather than scientific ones.
-*/}
-
-A very common kind of sentence is called a "subject-verb-object" sentence. This means that one thing (the subject) does something to another thing (the object). Let's make a few sentences:
-
-{/* A note for translators */}
-{/*
-  Your language may instead be SOV or VSO. If it is, please draw attention
-  to this difference between your language and Toki Pona.
-*/}
+genus sententiae usitatissimum appellatur sententia "subiectum-verbum-obiectum". significat subiectum (sicut casus nominativus Latine) aliquid obiecto (sicut casus accusativus) agere. infra sunt paucae sententiae huius generis:
 
 <List>
-  <Sentence sl="soweli li moku e kasi." m="The animal eats plants." />
-  <Sentence sl="waso li moku e pipi." m="The bird eats bugs." />
-  <Sentence sl="pipi li lukin e soweli." m="The insect sees an animal." />
-  <Sentence sl="waso li sona e kasi." m="The bird knows the tree." />
+  <Sentence sl="soweli li moku e kasi." m="bestia plantas consumit." />
+  <Sentence sl="waso li moku e pipi." m="avis insecta consumit." />
+  <Sentence sl="pipi li lukin e soweli." m="insectum bestiam vidit." />
+  <Sentence sl="waso li sona e kasi." m="avis arborem scis." />
 </List>
 
-Here's what we can learn:
+hoc discere possumus:
 
-- The word order is the same as in English: subject, verb, object.
-- **󱤧 li** is a particle that starts the verb.
-- **󱤉 e** is a particle that starts the object.
+- ordo verborum a lingua Latina differt. Latine multis ordinibus verba poni possunt. sed usitatissimus est ordo: subiectum, obiectum, verbum (SOV). in Toki Pona, semper est ordo SVO: subiectum, verbum, obiectum.
+- **󱤧 li** particula una grammatica est, quae designat verbum sequi.
+- **󱤉 e** particula una grammatica est, quae designat obiectum sequi.
 
-The English translation includes words and word-pieces like "the", "an", "-s", but those are guesses! The Toki Pona sentence doesn't specify if we're talking about "_a_ bird" or "_the_ bird". In longer conversations, it becomes pretty clear!
+conversio Latina flexiones continet; "-am", "-em", "-as", "-a"; sed haec aliquatenus coniecturae sunt; sententiae Toki Ponae utrum plantam an plantas, utrum insectum an insecta, utrum arborem an arbores non definit; in longiores sermones clarescit!
 
-{/* A note for translators */}
-{/*
-  Your language may not have articles. Your language may have gender markers.
-  You can adjust the bullet point above to better suit your language.
-*/}
-
-(**󱤧 li** and **󱤉 e** may seem unnecessary at first. We will learn about why they are required, but to do that, we first need to learn more about parts of speech!)
+(primo haud necessariae **󱤧 li** et **󱤉 e** videri possint; sed necessariae sunt, utque rationem cognoscamus, primum de partibus orationis discendum est!)
 
 <Practice exercises={frontmatter.practice} />
